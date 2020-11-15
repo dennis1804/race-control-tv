@@ -20,7 +20,7 @@ class GithubClient @Inject constructor(
     companion object {
         private val TAG = GithubClient::class.simpleName
         private const val ROOT_URL = "https://api.github.com"
-        private const val RACE_CONTROL_TV_REPO = "Groggy/race-control-tv"
+        private const val RACE_CONTROL_TV_REPO = "dennis1804/race-control-tv"
         private const val APK_CONTENT_TYPE = "application/vnd.android.package-archive"
     }
 
