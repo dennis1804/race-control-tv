@@ -19,6 +19,7 @@ class F1Client @Inject constructor(
     companion object {
         private const val ROOT_URL = "https://api.formula1.com"
         private const val API_KEY = "fCUCjWrKPu9ylJwRAv8BpGLEgiAuThx7"
+        private const val USER_AGENT = "RaceControl f1controltv"
     }
 
     private val authenticateRequestJsonAdapter = moshi.adapter(F1AuthenticateRequest::class.java)
@@ -33,9 +34,9 @@ class F1Client @Inject constructor(
             .url("${ROOT_URL}/v2/account/subscriber/authenticate/by-password")
             .post(body)
             .header("apiKey", API_KEY)
+            .header("User-Agent", USER_AGENT)
             .build()
         val response = request.execute(httpClient).parseJsonBody(authenticateResponseJsonAdapter)
         return F1Token(JWT(response.data.subscriptionToken))
     }
-
 }

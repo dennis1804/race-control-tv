@@ -4,7 +4,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:4.0.1")
+        classpath("com.android.tools.build:gradle:4.1.0")
         classpath(kotlin("gradle-plugin", version = "1.4.0"))
 
         val hiltVersion = "2.28.1-alpha"
