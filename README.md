@@ -1,7 +1,5 @@
 # Race Control TV
 
-> This project is no longer maintained. I'm not subscribed to F1 TV anymore and have no use for this app. I used it for the last time to watch the 2020 Belgian Grand Prix (2020-08-30).
-
 Android TV application to watch content from [F1 TV](https://f1tv.formula1.com).
 
 At this time, only live or replay content from the current season is available (F1, F2, F3, ...).
@@ -34,9 +32,9 @@ does not officially support Android TV and even after sideloading it, it's not u
 The official website is also not easily usable with a remote. If in the future an official application
 would be available, I will happilly abandonned this one.
 
-This application has only been tested on a up-to-date Nvidia Shield TV 2017 version.
+This application will only been tested on a up-to-date Nvidia Shield TV pro.
 
-This will allways be a free and open source app and will probably never be on Google Play.
+This will allways be a free and open source app.
 
 Do what you want with it : use it or modify it.
 
